@@ -1,0 +1,5 @@
+handlers:
+  stripe:
+    - Horse
+    - Pidgey
+    - Tiger

@@ -1,0 +1,22 @@
+addon:
+  files:
+    - <%= m.addon.dir %>/**/*.{php,json,yaml}
+  tasks:
+    - copy:addon
+    - notify:addon
+
+
+settings:
+  files:
+    - <%= m.settingsPath %>/*.yaml
+  tasks:
+    - copy:settings
+    - notify:settings
+
+
+
+
+configFiles:
+  files:
+    - Gruntfile.js
+    - meerkat/**

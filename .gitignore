@@ -1,0 +1,4 @@
+meerkat/preferences.yaml
+node_modules
+# Just using package.json for `npm version [version]` command.
+package.json
